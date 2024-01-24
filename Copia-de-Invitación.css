@@ -5,6 +5,7 @@
    height: auto; /* Mantiene la proporción de la imagen */
    background-size: contain;
    background-repeat: no-repeat;
+     margin: 0;
 }
 
 
