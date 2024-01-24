@@ -1,6 +1,8 @@
  .u-section-1 {
   background-image: url("images/aos1.png");
-  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Opcional: fija la imagen de fondo */
 }
 
 .u-section-1 .u-sheet-1 {
