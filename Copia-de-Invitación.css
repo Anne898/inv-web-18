@@ -2,15 +2,32 @@
   background-image: url("images/aos1.png");
 
    width: 100%; /* Ajusta el ancho al 100% de la pantalla */
-            height: 100vh; /* Ajusta la altura al 100% de la ventana visible */
-            margin: 0;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: scroll; /* Permite hacer scroll para ver la longitud completa */
-
-
-  
+   height: auto; /* Mantiene la proporción de la imagen */
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center center;
 }
+
+
+ body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+           
+        }
+
+        .imagen-de-fondo {
+            width: 100%; /* Ajusta el ancho al 100% de la pantalla */
+            height: auto; /* Mantiene la proporción de la imagen */
+            background-image: url('tu_imagen.jpg'); /* Ruta de tu imagen de fondo */
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+
+
+
 
 .u-section-1 .u-sheet-1 {
   min-height: 3205px;
