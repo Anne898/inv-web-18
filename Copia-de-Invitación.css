@@ -1,34 +1,7 @@
  .u-section-1 {
-  background-image: url("images/aos1.png");
-
-  width: 100vw; /* Ajusta el ancho al 100% del viewport */
-  height: 100vh; /* Ajusta la altura al 100% del viewport */
-  
-   margin: 0;
-   background-repeat: no-repeat;
-  background-size: contain;
+  background-image: url("images/aos11.png");
+  background-position: 50% 50%;
 }
-
-
- body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-           
-        }
-
-        .imagen-de-fondo {
-            width: 100%; /* Ajusta el ancho al 100% de la pantalla */
-            height: auto; /* Mantiene la proporción de la imagen */
-            background-image: url('tu_imagen.jpg'); /* Ruta de tu imagen de fondo */
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center center;
-        }
-
-
-
-
 
 .u-section-1 .u-sheet-1 {
   min-height: 3205px;
@@ -219,7 +192,7 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 3268px;
+    min-height: 3260px;
   }
 
   .u-section-1 .u-custom-html-1 {
@@ -228,14 +201,14 @@
   }
 
   .u-section-1 .u-countdown-1 {
-    margin-top: 1890px;
+    margin-top: 1886px;
     margin-bottom: 0;
   }
 
   .u-section-1 .u-btn-1 {
     font-size: 0.875rem;
     font-weight: 700;
-    margin: 397px auto 0;
+    margin: 388px auto 0;
     padding: 7px 26px 8px 25px;
   }
 
@@ -243,7 +216,7 @@
     font-size: 0.875rem;
     font-weight: 700;
     text-transform: uppercase;
-    margin-top: 527px;
+    margin-top: 539px;
     margin-left: auto;
     margin-right: auto;
     padding: 7px 26px 8px 25px;
@@ -252,7 +225,7 @@
   .u-section-1 .u-btn-3 {
     font-size: 0.875rem;
     font-weight: 700;
-    margin-top: -827px;
+    margin-top: -834px;
     margin-left: auto;
     margin-right: auto;
     padding: 7px 26px 8px 25px;
