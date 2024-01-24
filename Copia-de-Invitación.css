@@ -1,8 +1,12 @@
  .u-section-1 {
   background-image: url("images/aos1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* Opcional: fija la imagen de fondo */
+
+
+ width: 100%; /* Ajusta el ancho al 100% de la pantalla */
+            height: auto; /* Mantén la proporción de la imagen */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: scroll; /* Permite hacer scroll para ver la longitud completa */  
 }
 
 .u-section-1 .u-sheet-1 {
