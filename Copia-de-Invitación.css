@@ -1,11 +1,17 @@
  .u-section-1 {
   background-image: url("images/aos1.png");
 
-   width: 100%; /* Ajusta el ancho al 100% de la pantalla */
-   height: auto; /* Mantiene la proporción de la imagen */
-   background-size: contain;
-   background-repeat: no-repeat;
+  width: 100vw; /* Ajusta el ancho al 100% del viewport */
+            height: 100vh; /* Ajusta la altura al 100% del viewport */
+ 
+
+
      margin: 0;
+
+
+     background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
 }
 
 
