@@ -2,16 +2,10 @@
   background-image: url("images/aos1.png");
 
   width: 100vw; /* Ajusta el ancho al 100% del viewport */
-            height: 100vh; /* Ajusta la altura al 100% del viewport */
- 
-
-
-     margin: 0;
-
-
-     background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
+  height: 100vh; /* Ajusta la altura al 100% del viewport */
+  
+   margin: 0;
+   background-repeat: no-repeat;
 }
 
 
